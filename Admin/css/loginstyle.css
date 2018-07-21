@@ -1,0 +1,589 @@
+
+body
+{
+    font-family: com;
+    background :#900C3F ;
+}
+
+/******************************************************   start login page   *********************************************************/
+/******** Home icon ***********/
+.iconh
+{
+    color: white;
+    float:left;
+    margin:20px 40px 0px;
+    box-shadow: 1px 1px 2px #000;
+}
+
+
+
+/******************************/
+/********* start " login " **********/ 
+.headlogin 
+{
+    margin-top: 40px;
+    margin-bottom: 35px; 
+    font-size: 60px;
+    font-family: Leelawadee;/*
+    color: rgba(0, 206, 127, 0.81);*/
+    color: #fff;
+    clear: both;
+}
+/********* end " login " **********/
+
+/********* start login form *******/
+/* disable editing */
+.login
+{   
+    background-color: rgba(236, 236, 236, 0.67);
+    width: 440px;
+    height: 290px;
+    margin-top: 0px ;
+    margin-bottom: 20px;
+    padding: 20px 13px 15px 13px  ;
+    border-radius: 14px;     
+    display: block;
+}
+/********* end login form *******/
+
+
+/* name & password take the same style */
+/* input name & password */
+.nplogin
+{
+    background-color: rgba(236, 236, 236, 0.67);
+    padding: 7px 10px 7px 40px;
+    margin-bottom: 20px;
+    border: 1px solid #C70039  ;
+    font-size: 18px;
+    font-family: Ebrima;
+    width: 360px;
+    height: 20px;
+    border-radius: 4px;
+    display: block;    
+    color: #C70039  ;
+    transition: 1s;
+}
+.nplogin:focus
+{
+	box-shadow: 1px 1px 1px 2px #C70039  ;
+}
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 23px 23px;
+	background-position: 10px 5px;
+	background-repeat: no-repeat;
+}
+#password
+{
+ 	background-image: url(http://www.iconhot.com/icon/png/devine/256/lock-6.png);
+	background-size: 23px 23px;
+	background-position: 10px 5px;
+	background-repeat: no-repeat;   
+}
+/*********************************** end input*/
+
+/************** remember me *******************/
+.check
+{   /* Fixed */
+    float: left;
+    margin: 5px 5px 0px 20px;
+    display: block;
+    padding: 20px;
+}
+.plogin1
+{   /* Fixed */
+    float: left;
+    display: block;
+    font-size: 14px;
+    margin-top: 3px;
+}
+/***********end remember me ******************/
+
+/***********start login button ********************/
+.submit
+{   
+    float: center;                        /* Fixed */
+    display: inline-block;              /* Fixed */
+    clear: both;                        /* Fixed */
+    margin: 18px 15px 0px 20px;         /* Fixed */
+    color: white;                 
+    font-size: 15px;              
+    background-color: #C70039  ;    
+    border:none;        
+    padding: 9px 25px;                  /* Fixed */
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.submit:hover
+{
+    color: #C70039  ;
+    background-color: #fff  ;
+    transition:0.5s;
+}
+/*****************end login button ****************/
+
+/********start link forget password****************/
+.plogin2
+{   
+    float: right;               /* Fixed */
+    display: block;      /* Fixed */
+    margin: 17px 18px 5px 0px;  /* Fixed */
+    clear: both;                /* Fixed */
+    text-decoration: none;  
+    color: #4a4a4a;
+    font-size: 13px;
+}
+/********end link forget password****************/
+
+/*** line after forget password***/
+.hlogin
+{
+    clear: both;        /* Fixed */
+    margin: 10px 16px;   /* Fixed */
+   
+}
+/*****************end*/
+
+/******* login with : ****/
+.plogin3
+{   /* Fixed */
+    display: inline; 
+    float: left;
+    font-size: 14px;
+    padding: 8px 8px 0px 16px;
+}
+/*******end login with : */
+
+/*******************start icons ***********/
+.iconlogin
+{   /* Fixed */
+    color: rgba(0,0,0,0.5);
+    float: left;
+    margin-top: 10px
+    
+}
+.iconlogin a
+{   /* Fixed */
+    color: rgba(0,0,0,0.5);
+    padding-right: 8px;
+    transition: 0.3s;
+}
+.iconlogin a:hover 
+{   /* Fixed */
+    color: black;
+    transition: 0.3s;
+}
+/******************* end icons ***********/
+
+/*********** creat new account ***********/
+.alogin
+{   
+    margin-top: 50px;
+    font-size: 19px;
+    text-decoration: none;
+    color: r#C70039  ;
+}
+.alogin:hover
+{
+	color: #C70039  ;
+    transition: 0.8s;
+}
+/******************************************************   end login page   *********************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+
+
+/*************************************************** start forget password page ****************************************************/
+
+/********************** start ResetPassword */
+.ResetPassword
+{   /* not fixed */
+    margin-top: 40px;
+    margin-bottom: 35px; 
+    font-size: 45px;
+    font-family: Leelawadee;
+    color: #fff;
+    clear: both;
+}
+/********************** end ResetPassword */
+
+/********************** start forget form decoration */
+.forget
+{   /* fixed */
+    background-color: rgba(236, 236, 236, 0.67);
+    width: 500px;
+    height: 157px;
+    margin-top: 0px ;
+    margin-bottom: 20px;
+    padding: 20px 13px 15px 13px  ;
+    border-radius: 14px;     
+    display: block;
+}
+/********************** end forget form decoration */
+
+/********************** start email box */
+.email
+{   /* fixed */
+    background-color: rgba(236, 236, 236, 0.67);
+    padding: 7px 10px 7px 45px;
+    margin: 20px 0px 5px 0px;
+    border: 1px solid#C70039  ;
+    font-size: 18px;
+    font-family: Ebrima;
+    width: 420px;
+    height: 20px;
+    border-radius: 4px;
+    display: block;    
+    color: #C70039  ;
+    
+}
+.email:focus
+{   /* not fixed */
+	box-shadow: 1px 1px 1px 1px #C70039  ;
+}
+#email
+{   /* fixed */
+ 	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 25px 25px;
+	background-position: 10px 5px;
+	background-repeat: no-repeat;   
+}
+/********************** end email box */
+
+/********************** start send button */
+.send
+{   
+    float: center;                        /* Fixed */
+    display: inline-block;              /* Fixed */
+    clear: both;                        /* Fixed */
+    margin: 15px 15px 0px 16px;         /* Fixed */
+    color: white;                 
+    font-size: 15px;              
+    background-color: #C70039  ;   
+    border:none;        
+    padding: 9px 17px;                  /* Fixed */
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+/********************** end send button */
+
+/********************** start button back .. "back to login page" */
+.aforget
+{   /*fixed */
+    float: right;
+    clear: both;
+    text-decoration: none;
+    color: #333333; /* not fixed */
+    margin:5px 16px 0px 0px; 
+}
+.aforget:hover
+{
+    color: rgba(0, 0, 0, 0.85); /* not fixed */
+    transition: 0.5s
+}
+/********************** end button back */
+
+/*************************************************** end forget password page ****************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/***************************************************** start redister page *********************************************************/ 
+
+.headsignin
+{
+    /* not fixed */
+    margin-top: 36px;
+    margin-bottom: 26px; 
+    font-size: 46px;
+    font-family: Leelawadee;
+    color: #fff;
+    clear: both;
+}
+/*************start signin form *******************/
+.signin
+{   /* fixed */
+    background-color: rgba(236, 236, 236, 0.67);
+    width: 560px;
+    height: 375px;
+    margin-top: 0px ;
+    margin-bottom: 20px;
+    padding: 14px 13px 17px 13px  ;
+    border-radius: 10px;     
+    display: block;
+}
+/*************end signin form *******************/
+
+/*************start first & last name ***********/
+.firstnamelabel 
+{   /* fixed */
+    float: left;
+    font-size: 14px;
+    margin: 15px 20px 0px 20px;
+}
+.lastnamelabel
+{   /* fixed */
+    float: right;
+    font-size: 14px;
+    margin: 15px 190px 0px 20px;
+    display: inline-block;
+}
+.firstnamebox
+{   /* fixed */
+    background-color: rgba(236, 236, 236, 0.67);
+    float: left;    
+    clear: both;
+    padding: 8px 10px 8px 10px;
+    margin: 7px 10px 7px 20px;
+    border: 1px solid #C70039  ;
+    font-size: 17px;        /* not fixed */
+    font-family: Ebrima;    /* not fixed */
+    width: 220px;
+    height: 12px;
+    border-radius: 4px;    
+    color: rgb(3, 126, 243);   /* not fixed */
+}
+.lastnamebox
+{   /* fixed */
+    background-color: rgba(236, 236, 236, 0.67);
+    float: right;
+    padding: 8px 10px 8px 10px;
+    margin: 7px 20px 7px 10px;
+    border: 1px solid #C70039  ;  /* not fixed */
+    font-size: 17px;                           /* not fixed */ 
+    font-family: Ebrima;                       /* not fixed */ 
+    width: 220px;
+    height: 12px;
+    border-radius: 4px;    
+    color: #C70039  ;                   /* not fixed */ 
+}
+/*************end first & last name ***********/
+
+/*************start email *********************/
+.signinemail
+{   /* fixed */
+    display: block;
+    float: left;
+    clear: both;
+    margin: 12px 20px 5px 20px;
+    font-size: 14px;                           /* not fixed */
+}
+.signinemailbox
+{   /* fixed */
+    background-color: rgba(236, 236, 236, 0.67);
+    display: block;
+    float: left;
+    clear: both;
+    padding: 7px 10px 7px 10px;
+    margin: 0px 10px 7px 17px;
+    border: 1px solid #C70039  ;  /* not fixed */
+    font-size: 17px;                           /* not fixed */
+    font-family: Ebrima;                       /* not fixed */ 
+    width: 500px;
+    height: 12px;
+    border-radius: 4px;    
+    color: #C70039  ;                   /* not fixed */ 
+}
+/***************end email *********************/
+
+/*************start Username *********************/
+.signinusername
+{   /* fixed */
+    display: block;
+    float: left;
+    clear: both;
+    margin: 14px 20px 5px 20px;
+    font-size: 14px;                           /* not fixed */
+}
+.usernamebox
+{   /* fixed */
+    background-color: rgba(236, 236, 236, 0.67);
+    float: left;
+    display: inline-block;
+    clear: both;
+    padding: 8px 10px 8px 10px;
+    margin: 0px 0px 7px 17px;
+    border: 1px solid #C70039  ;   /* not fixed */
+    font-size: 17px;                            /* not fixed */ 
+    font-family: Ebrima;                        /* not fixed */
+    width: 220px;
+    height: 12px;
+    border-radius: 4px;    
+    color:#C70039  ;                    /* not fixed */
+}
+/***************end Username *********************/
+
+/***************start gender "male || female" ****/
+.gender
+{   /* fixed */
+    float: right;
+    display: inline;
+    margin: 3px 120px 20px 0px;
+    font-size: 14px;
+}
+.gender .male
+{   /* fixed */
+    margin: 0px 14px 0px 0px;
+}
+/*****************end gender "male || female" ****/
+
+/*****************start password & Confirm *******/
+.signinpassword
+{   /* fixed */
+    float: left;
+    display: block;
+    clear: both;
+    margin: 10px 0px 0px 22px;
+    font-size: 14px;                            /* not fixed */
+}
+.signinpassword .label2 
+{   /* fixed */
+    padding-left: 220px;
+}
+.signinpasswordbox
+{   /* fixed */
+    float: left;
+    display: block;
+    clear: both;
+    margin: 5px 0px 0px 18px
+}
+.passbox1 , .passbox2
+{   /* fixed */
+    background-color: rgba(236, 236, 236, 0.67);
+    padding: 8px 10px 8px 10px;
+    border: 1px solid #C70039  ;   /* not fixed */
+    font-size: 17px;                            /* not fixed */
+    font-family: Ebrima;                        /* not fixed */
+    width: 220px;   
+    height: 12px;
+    border-radius: 4px;    
+    color: #C70039  ;                    /* not fixed */
+}
+.passbox2
+{   /* fixed */
+    margin-left: 32px
+}
+/*******************end password & Confirm *******/
+
+/*******************start i agree to t...... *****/
+.signincheckbox
+{   /* fixed */
+    clear: both;
+    float: left;
+    margin: 30px 4px 0px 20px;
+}
+.signinp
+{   /* fixed */
+    float: left;
+    display: inline;
+    margin-top: 30px ;
+    font-size: 12px;
+}
+/*******************end i agree to t...... *****/
+
+/*********start create account button ...... *****/
+.Createaccountbutton
+{   /* not fixed */
+    float: left;                        /* Fixed */
+    display: block;                     /* Fixed */
+    clear: both;                        /* Fixed */
+    margin: 0px 15px 0px 16px;          /* Fixed */
+    color: white;                 
+    font-size: 13px;              
+    background-color: #C70039  ;   
+    border:none;        
+    padding: 6px 18px;                  /* Fixed */
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    cursor: pointer;
+    border-radius: 4px;
+}
+.Createaccountbutton:hover
+{
+    background-color: #C70039  ;
+    transition: 0.5s;
+}
+/***********end create account button ...... *****/
+
+
+/***************************************************** end signin page *********************************************************/ 
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+ /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 96px; /* Location of the box */ /*????*/
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 85%; /* Full height */
+    overflow:inherit; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.3);
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefafa;
+    margin:auto;
+    padding: 10px 50px;
+    border: 1px solid #6d6d6d;
+    width: 50%;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 1s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+     border-radius: 12px;
+    line-height: 25px;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #C70039  ;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal-body {padding: 2px 16px;}
+
+
+.myBtn
+    {
+        color:#C70039  ;
+        cursor: pointer;
+    }
